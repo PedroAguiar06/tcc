@@ -1,0 +1,356 @@
+html{
+    font-family: Poppins;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    background: url(../../assets/Large-Triangles\ \(1\).svg);
+    /* background: #001F33; */
+    overflow: hidden;
+} 
+
+.navbar ul {
+    background: #FF7500;
+    height: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.navbar li {
+    margin-right: 3%;
+    float: right;
+    margin: 0%;
+    width: 10%;
+    
+}
+
+.navbar li a {
+    /* background: lemonchiffon; */
+    width: 90px;
+    height: 80px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.4%;
+    text-decoration: none;
+    margin: 6%;
+    justify-items: center;
+    
+}
+
+.navbar img {
+    width: 90px;
+
+}
+
+.navbar img:hover{
+    background: white;
+    border-radius: 1.2rem;
+}
+
+#litemp{
+    text-align: center;
+    margin-top: 2.1%;
+    width: 20%;
+    font-size: large;
+    font-weight: 700;
+}
+
+
+
+#saida {
+    margin-right: -40%;
+    margin-top: -5%;
+}
+
+#cesta {
+    /* margin-right: -40%; */
+    margin-top: -5%;  
+    /* cursor: context-menu;  */
+}
+
+/* #user {
+    margin-right: -40%;
+    margin-top: -5%;
+} */
+#logo {
+    background: white;
+    border-radius: 100%;
+    height: 82%;
+    float: left;
+    margin: 0.6%;
+}
+#page-content{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    background: transparent;
+    margin: 2% 0% 0% 0%; /*cima direita embaixo esquerda*/
+    /* float: right; */
+    padding: 1.3%;
+    height: auto;
+    /* width: 100%; */
+    border-radius: 2rem;
+
+}
+
+#descricao-content {
+    margin: 2% 0% 5% 4%;
+    padding: 1.3%;
+    background:  #FF7500;
+    border-radius: 1.8rem;
+    width: 25%;
+    height: auto;
+
+    border: 2px solid white;
+}
+
+#descricao-content > h3, p{
+    color: white;
+}
+
+#page-content #descricao-content h3 {
+    margin-top: 0%;
+}
+
+#imgL{
+    width: 30%;
+    background:  white;
+    border-radius: 2rem;
+    border: 1px solid #ccc;
+}
+
+#central {
+    /* margin-left: 2%; */
+    /* border: 1px solid black; */
+    padding: 0 2% 0 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 2rem;
+}
+
+/* .foto{
+    margin-right: 40%;
+    float:left;
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+} */
+#pFoto{
+    text-align: center;
+    color: white;
+}
+
+#fotos > h2 {
+    color: white;
+    text-align: center;
+}
+
+#fotinha {
+    /* padding: 3%; */
+    /* width: 350px;
+    height: 230px; */
+    /* margin-left: 55%; */
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
+    margin-right: 2rem;
+    /* border: 1px solid black; */
+}
+ 
+.page-comp {
+    color: white;
+    /* border: 1px solid black; */
+    border-radius: 1.5rem;
+    /* display: inline-block; */
+    /* float: right; */
+    background:  #002A50;
+    width: auto;
+    height: 590px;
+    border: 2px solid white;
+}
+
+.page-comp h2 {
+    margin: 0;
+}
+
+.preco {
+    background:  #008CBA;
+    font-weight: bolder;
+    font-size: 28px;
+    border-radius: 0.5rem;
+    padding: 4px;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FF7500;    
+}
+
+a:hover{
+    color: white;
+}
+
+
+.compra {
+    height: auto;
+    padding: 18px;
+    height: 590px;
+    
+}
+
+.compra ul {
+    width: 43%;
+    display: inline-block;
+    background-color: #2288e7;
+    list-style-type: none;
+    margin: 0%;
+    padding: 3%;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+#compra ul-1 {
+    display: inline-block;
+    
+}
+#compra ul-2 {
+    display: inline-block;
+} 
+
+.compra li{
+    padding: 0;
+    text-decoration: none;
+}
+
+.cep-content {
+    /* background: blue; */
+    margin-top: 8%;
+    align-items: center;
+    justify-items: center;
+}
+
+
+#labels {
+    padding-top: 2%;
+    text-align: left;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+#labels .titulo{
+    font-size: 132%;
+    font-weight: bolder;
+}
+
+.compra h3{
+    margin-bottom: -2%;
+}
+
+
+.labelCEP{
+    margin-top: 5%;
+    display: block;
+}
+
+.pague {
+}
+
+#parcela{
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+hr {
+    margin-top: 20%;
+}
+
+button {
+    background: #FF7500;
+    width: 100%;
+    height: 22px;
+    border-radius: 0.2rem; /* serve para arredondar as bordas
+    se por 4rem(esquerda superior) 
+    7rem (direta supeior)
+    2rem(direita inferior)
+    4rem (esquerda inferior) */
+    font-size: 700 20px Poppins;
+    
+    display: flex; /*quando quero mexer com posicionamentos dentro da caixa, usa o display*/
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none; /*tira a linha de link*/
+    cursor: pointer;
+    transition: background 0.3s ; /*sempre que mudar o back */
+
+    color: white;
+    margin: 4% 0% 7% 0%;
+
+    border: none red;
+    outline: none;
+}
+button:hover {
+    background: #008CBA; /* Green */
+    color: white;
+  }
+
+
+#cep {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    border:0px;
+    border-radius: 2rem;
+    text-align: center;
+    width: 20%;
+}
+
+.hr2 {
+    margin-top: 4%;
+}
+
+.botaoADD {
+    background:#008CBA;
+    width: 90%;
+    height: 13%;
+    border-radius: 0.8rem; /* serve para arredondar as bordas
+    se por 4rem(esquerda superior) 
+    7rem (direta supeior)
+    2rem(direita inferior)
+    4rem (esquerda inferior) */
+    font: 700 1.6rem Poppins;
+    text-align: center;
+    display: flex; /*quando quero mexer com posicionamentos dentro da caixa, usa o display*/
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none; /*tira a linha de link*/
+    cursor: pointer;
+    transition: background 0.3s ; /*sempre que mudar o back */
+
+    color: black;
+    /* margin: 20% 6% 7% 4%; */
+    margin: 38% 1% 30% 1%;
+    border: none;
+    outline: none;
+    padding: 4%;
+}
+
+.botaoADD:hover {
+    background:#FF7500;   
+}

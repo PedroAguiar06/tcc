@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    
+}  
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+  
+
+body {
+    /* background-image: url(../../assets/Shadow-Fall-Background\ -\ Copia.svg) ; */
+    height: 100vh;
+    margin: auto;
+    background: #FF7500;
+    
+}
+body,
+input,
+button,
+textarea {
+    /* font: 500 1.6rem Poppins; */
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+
+.header {    
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    align-items: center;
+    background:white;
+    /* background: url(../../assets/Square-Versatiles.svg); */
+    padding: 1.4%;
+    text-align: center;
+    font-size: 32px;
+    color: #FF7500;
+    font-weight: 900;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    /* text-align: center; */
+    padding: 0;
+    /* margin-left: 34%; */
+    /* align-items: center;
+    justify-content: center; */
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the top navigation bar */
+nav {
+    overflow: hidden;
+    background-color: #002a50;
+    
+  }
+  
+  /* Style the topnav links */
+nav a {
+    
+    float: left;
+    /* float: left; */
+    display: inline-block;
+    
+    color: #f2f2f2;
+    /* text-align: center; */
+    /* padding: 14px 16px; */
+    padding: 1% 2.3%;
+    text-decoration: none;
+    transition: background 0.3s ;
+  }
+  
+  /* Change color on hover */
+nav a:hover {
+    background-color: white;
+    color: #FF7500;
+}
+
+.addItems {
+    color: #FF7500;
+    /* background: #002a50; */
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+.addItems:hover {
+    padding: 0.5rem;
+    color: white;
+    background: #FF7500;
+}
+
+#logoEm {
+    float: left;
+    /* width: 5%; */
+    margin-right: 2%;
+    height: 58px;
+}
+
+.page-content{
+    display: grid;
+    grid-row-gap: 5%;
+    grid-template-columns: auto auto;
+    margin: 3% 4%;
+    background:  white;
+    padding: 2.3%;
+    border-radius: 2rem;
+    width: auto;
+    /* justify-items: center; */
+}
+
+#page-car {
+    /* background: white; */
+    padding: 2%;
+    border-radius: 2rem;
+    /* border: 2px solid black; */
+    /* float: left; */
+    width: 100%;
+    /* text-align: center; */
+}
+
+
+#detalhes {
+    /* background: white; */
+    padding: 1%;
+    border-radius: 2rem;
+    /* border: 2px solid black; */
+    /* float: right; */
+}
+
+.pague {
+}
+
+#parcela {
+    margin-bottom: 11%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+hr{
+    margin: 16px 0;
+}
+ 
+h4 {
+    margin-top: 2%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    padding: 1%;
+    display: block;
+}
+
+.cvv[type=text] {
+    margin: 0;
+    display: block;
+    width: 20%;
+}
+
+#btns {
+}
+
+.btn {
+    background: #002a50;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    border-radius: 2rem;
+    /* margin-top: 2%; */
+    cursor: pointer;
+    transition: background 0.3s ;
+    
+}
+ 
+.btn-fin{
+    background: #FF7500;
+}
+
+.btn:hover {
+    background: #FF7500 ;
+}
+
+.btn-fin:hover{
+    background: #002a50;
+}
+

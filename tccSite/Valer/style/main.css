@@ -1,0 +1,36 @@
+
+:root {
+    /* os 2 traços são variáveis no html */
+    --color-background: #003565;
+    --color-primary: #2288e7;
+    --color-primary-lighter: #FF7500;
+    --color-button-font: black;
+    --color-button-login: #2288e7;
+    --color-button-login-hover: #FFFFFF;
+    --color-button-cadastro: #2288e7;
+    --color-button-cadastro-hover:#64b2fa;
+    --color-background-caixa2: #64b2fa;
+    
+    /* unidade de medidas / tamanho da fonte padrão: 16px - 100% - 1rem */
+    font-size: 60%; /* controle das medidas rem */
+}
+html, 
+body {
+    height: 100vh;
+}
+body {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+body,
+input,
+button,
+textarea {
+    /* font: 500 1.6rem Poppins; */
+    font-weight: 100;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    color: var(--color-text-base);
+}

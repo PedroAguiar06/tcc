@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    
+} 
+@media (max-device-width:1600px){
+    .logGif {margin-left: 10px}
+    #page-landing {margin-left: 2%}
+}
+
+@media (max-device-width: 1400px){
+    #page-landing {margin-left: 5%}
+    #page-landing {height: 40%}
+    #page-landing {margin-bottom: 30%}
+    .logo-container img{height: 40px}
+
+}
+#container {
+    padding: 10px;
+    color:white;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center; /* justify content n existe sem o display ":flex"*/
+    align-items: center;
+    margin: 1rem 0;
+    margin-left: -25px;
+    text-decoration: none;  
+}
+#caixaradius {
+    background: rgb(255, 255, 255);
+    width: 600px;
+    height: 270px;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px #030303;
+    margin-left: 2%;
+}
+.descricao1{
+    font-size: 2.5rem;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.descricao2{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+}
+.header {    
+    background: #003565;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+body {
+    background-image: url(/assets/Shadow-Fall-Background.svg) ;
+    height: 100vh;
+    margin: auto;
+    background:  #003565;
+    text-align: center;
+    
+}
+nav {
+    overflow: hidden;
+    background-color: #333;
+
+  }
+  
+  /* Style the topnav links */
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+div{
+    display: block;
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 35.6%;
+    font-size: 20px;
+    display: block;
+}
